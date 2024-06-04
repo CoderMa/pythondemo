@@ -1,5 +1,8 @@
 import requests
 
+def test(a):
+    pass
+
 
 def building_multipart_xml2(print_file):
     # with open(print_file, "rb") as f:
@@ -46,3 +49,5 @@ if __name__ == '__main__':
     # Create_Multipart_xml = building_multipart_xml2("./Letter_simplex.pwg")
     # print(Create_Multipart_xml)
     wsptest()
+    test(2)
+

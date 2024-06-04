@@ -141,5 +141,10 @@ if __name__ == '__main__':
     # main()
     # divmodetest(2400)
     test(1)
+    test(2)
+    test(3)
+
+
+
 
 

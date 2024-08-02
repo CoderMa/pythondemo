@@ -1,8 +1,26 @@
+import subprocess
+
 import requests
 
 def test(a):
     pass
 
+
+def processtest():
+    # ipaddress = 'ping -c 4 15.26.251.100'
+    # ipaddress = 'ping 15.26.251.100'
+    ipaddress = '15.26.251.100'
+    command = ipaddress.split()
+
+    try:
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
+        print("Command executed successfully.")
+        print("Output:\n", result.stdout)
+    except subprocess.CalledProcessError as e:
+        print(f"Command failed with return code {e.returncode}")
+        print("Error:\n", e.stderr)
+    except FileNotFoundError:
+        print("Command not found. Please check the command and try again.")
 
 def building_multipart_xml2(print_file):
     # with open(print_file, "rb") as f:
@@ -41,13 +59,10 @@ def wsptest():
     print(response.text)
 
 
-
-
-
-
 if __name__ == '__main__':
     # Create_Multipart_xml = building_multipart_xml2("./Letter_simplex.pwg")
     # print(Create_Multipart_xml)
-    wsptest()
-    test(2)
+    # wsptest()
+    # test(2)
+    processtest()
 

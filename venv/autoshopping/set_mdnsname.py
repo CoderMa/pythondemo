@@ -1,5 +1,6 @@
 import re
 import socket
+import subprocess
 import time
 from Crypto.PublicKey import DSA
 from Crypto.Hash import SHA256
@@ -22,7 +23,19 @@ def test(a):
     print(newv, "...newv")
 
 
+def processtest():
+    ipaddress = 'ping -c 4 8.8.8.8'
+    command = ipaddress.split()
 
+    try:
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
+        print("Command executed successfully.")
+        print("Output:\n", result.stdout)
+    except subprocess.CalledProcessError as e:
+        print(f"Command failed with return code {e.returncode}")
+        print("Error:\n", e.stderr)
+    except FileNotFoundError:
+        print("Command not found. Please check the command and try again.")
 
 
 # Consumes 1% life by printing pages with proper ISO coverage to achieve 1% life reduction
@@ -140,9 +153,10 @@ def main():
 if __name__ == '__main__':
     # main()
     # divmodetest(2400)
-    test(1)
-    test(2)
-    test(3)
+    # test(1)
+    # test(2)
+    # test(3)
+    processtest()
 
 
 

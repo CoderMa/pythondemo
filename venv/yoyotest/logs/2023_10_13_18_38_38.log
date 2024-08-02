@@ -1,0 +1,9 @@
+[2023-10-13 18:38:38,481 - logger.py] - WARNING: -------加载测试用例---------
+[2023-10-13 18:38:38,491 - logger.py] - INFO: test----------------------
+[2023-10-13 18:38:38,809 - logger.py] - WARNING: -------执行测试用例---------
+[2023-10-13 18:38:38,811 - logger.py] - INFO: --------start testing login1----------
+[2023-10-13 18:38:38,812 - logger.py] - WARNING: --------end testing login1----------
+[2023-10-13 18:38:38,813 - logger.py] - INFO: --------start testing login2----------
+[2023-10-13 18:38:38,814 - logger.py] - WARNING: --------end testing login2----------
+[2023-10-13 18:41:19,432 - logger.py] - INFO: --------start!---------
+[2023-10-13 18:42:24,810 - logger.py] - INFO: --------start!---------

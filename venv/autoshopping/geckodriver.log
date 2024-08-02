@@ -1,0 +1,43 @@
+1704700549127	geckodriver	INFO	Listening on 127.0.0.1:57924
+1704700552150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57925" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\test\\AppData\\Local\\Temp\\rust_mozprofileKWjYnY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704700552914	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704700553165	Marionette	INFO	Listening on port 57934
+WebDriver BiDi listening on ws://127.0.0.1:57925
+Read port: 57934
+1704700553436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57925/devtools/browser/2381300e-6b56-43bb-83ee-7b2ed8bd2905
+console.error: (new TypeError("this._searchProviderInfo is null", "resource:///modules/SearchSERPTelemetry.sys.mjs", 743))
+JavaScript warning: http://hectorstatic.baidu.com/96c9c06653ba892e.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1704700563401	Marionette	INFO	Stopped listening on port 57934
+Dynamically enable window occlusion 1
+1704761765977	geckodriver	INFO	Listening on 127.0.0.1:62982
+1704761768999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62983" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\test\\AppData\\Local\\Temp\\rust_mozprofileWtUDi7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704761770230	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704761770650	Marionette	INFO	Listening on port 62999
+WebDriver BiDi listening on ws://127.0.0.1:62983
+Read port: 62999
+1704761771103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62983/devtools/browser/3daa7dd5-ff81-44e9-9255-740524cafa98
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.87/ns_f_95_3_f.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 7: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 7: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.9.10/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 7: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.70.8/et_f.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/fireyejs/1.227.0/fireyejs.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1704761790580	Marionette	INFO	Stopped listening on port 62999
+Dynamically enable window occlusion 1

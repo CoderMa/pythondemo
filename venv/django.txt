@@ -1,0 +1,17 @@
+ Django 中文网 官网
+http://django.p2hp.com/
+
+百度百科-验证
+https://baike.baidu.com/anticrawl/captchaview?captchaSourceUrl=https%3A%2F%2Fbaike.baidu.com%2Fitem%2Fdjango%2F61531%3Ffr%3Dge_ala&captchaSourceFrom=baike_pc_lemmapage_riskscore
+
+百度百科-验证
+https://baike.baidu.com/anticrawl/captchaview?captchaSourceUrl=https%3A%2F%2Fbaike.baidu.com%2Fitem%2Fdjango%2F61531%3Fanchor%3D1&captchaSourceFrom=baike_pc_lemmapage_riskscore#1
+
+百度百科-验证
+https://baike.baidu.com/anticrawl/captchaview?captchaSourceUrl=https%3A%2F%2Fbaike.baidu.com%2Fitem%2Fdjango%2F61531%3Fanchor%3D2&captchaSourceFrom=baike_pc_lemmapage_riskscore#2
+
+百度百科-验证
+https://baike.baidu.com/anticrawl/captchaview?captchaSourceUrl=https%3A%2F%2Fbaike.baidu.com%2Fitem%2Fdjango%2F61531%3Fanchor%3D3&captchaSourceFrom=baike_pc_lemmapage_riskscore#3
+
+百度百科-验证
+https://baike.baidu.com/anticrawl/captchaview?captchaSourceUrl=https%3A%2F%2Fbaike.baidu.com%2Fitem%2Fdjango%2F61531%3Fanchor%3D4&captchaSourceFrom=baike_pc_lemmapage_riskscore#4

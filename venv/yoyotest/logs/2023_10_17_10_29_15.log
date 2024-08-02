@@ -1,0 +1,3 @@
+[2023-10-17 10:31:06,470 - logger.py] - INFO: --------start testing test_baidu_assert_ok !---------
+[2023-10-17 10:32:27,870 - logger.py] - INFO: --------start testing baidu search!---------
+[2023-10-17 10:32:45,441 - logger.py] - INFO: --------end!---------

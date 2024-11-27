@@ -1,6 +1,7 @@
+import os
 from xToolkit import xfile
 from hctest_excel_to.excel_to import Excel
-
+import allure
 import requests
 import pytest
 import jsonpath
@@ -8,8 +9,9 @@ from string import Template
 
 from venv.exceltest.global_value import g_var
 
-file_path = "D:\\workspace\\pythonlearning\\venv\\exceltest\\testdata\\testcases.xlsx"
-testlist = xfile.read("file_path").excel_to_dict(sheet=0)
+file_path = "/venv/exceltest/testdata/testcases.xlsx"
+# file_path = r"D:\workspace\pythonlearning\venv\exceltest\testdata\testcases.xlsx"
+testlist = xfile.read(file_path).excel_to_dict(sheet=0)
 print(testlist)
 
 
@@ -21,7 +23,7 @@ def test_stringtemplate():
 
 
 @pytest.mark.parametrize("case_info", testlist)
-def test_case_exec(self, case_info):
+def test_case_exec(case_info):
     url = case_info["URL"]
     dic = g_var().show_dict()
     if "$" in url:
@@ -44,6 +46,10 @@ def test_case_exec(self, case_info):
 
 if __name__ == '__main__':
     # pytest 启动命令
-    # pytest.main(['-vs', '--capture=sys'])
+    pytest.main(['-vs', '--capture=sys', 'testcase_development.py', '--clean-alluredir', '--alluredir=../testoutput/result'])
+    os.system('copy ../environment.properties ../testoutput/result/environment.properties')
+    # os.system(r"allure generate -c -o ../testoutput/report/")
+    os.system("allure generate ../testoutput/result/ -o ../testoutput/report/ --clean")
+    os.system("allure serve ../testoutput/result/")
 
-    test_stringtemplate()
+    # test_stringtemplate()

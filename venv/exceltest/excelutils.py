@@ -1,6 +1,7 @@
 import xlrd
 from xToolkit import xfile
 from hctest_excel_to.excel_to import Excel
+import pandas as pd
 
 class ExcelUtil:
     def __init__(self, excelPath, sheetName):
@@ -44,6 +45,15 @@ class ExcelUtil:
         print(js_data)
         print(tp_data)
 
+    def get_dic_data3(self, file_path):
+        # Read the Excel file into a DataFrame
+        df = pd.read_excel(file_path, sheet_name=0)
+
+        # Convert the DataFrame to a dictionary
+        data_dict = df.to_dict()
+
+        print(data_dict)
+
 
 if __name__ == '__main__':
     file_path = "D:\\workspace\\pythonlearning\\venv\\exceltest\\testdata\\testdata.xlsx"
@@ -53,3 +63,4 @@ if __name__ == '__main__':
 
     data.get_dic_data1(file_path)
     data.get_dic_data2(file_path)
+    data.get_dic_data3(file_path)
